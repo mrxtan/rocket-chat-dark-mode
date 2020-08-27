@@ -2,4 +2,18 @@ label.rc-message-box__container {
 	border: 1px solid #383f49 !important;
 	border-radius: 0.5rem !important;
 	background: #292e35 !important;
+	transition: all 0.3s ease-out;
+}
+
+label.rc-message-box__container:hover {
+	background: #343942 !important;
+}
+
+.avatar .avatar-image {
+	border-radius: 50%;
+}
+
+.color-primary-font-color,
+textarea {
+	color: #f2f3f5;
 }
