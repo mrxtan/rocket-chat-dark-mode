@@ -1,19 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;500&family=Open+Sans:wght@400;600&family=Roboto:wght@400;500&family=Ubuntu:wght@400;500&display=swap");
 
 body {
-	font-family: "Catamaran", sans-serif;
+	font-family: "Roboto" !important;
 	letter-spacing: 0.5px;
 }
 
 label.rc-message-box__container {
 	border: transparent;
 	border-radius: 0.5rem !important;
-	background: #292e35 !important;
+	background: #2f353d !important;
 	transition: all 0.3s ease-out;
 }
 
 button.user.user-card-message.color-primary-font-color {
 	color: #cfecff;
+}
+
+.color-primary-font-color,
+textarea {
+	color: #d8d8d8;
 }
 
 .sidebar-item--active div.avatar img {
