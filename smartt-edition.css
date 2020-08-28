@@ -65,8 +65,13 @@ textarea {
 	padding: 0.5rem;
 }
 
-label.rc-message-box__container:hover {
-	background: #34383a !important;
+body.dark-mode .message.active,
+body.dark-mode .message:hover {
+	background-color: #272a2b !important;
+}
+
+.messages-box ul {
+	padding: 0;
 }
 
 .rc-header__wrap {
@@ -114,4 +119,12 @@ body.dark-mode .message {
 
 .message a:hover {
 	color: #7fccff;
+}
+
+.main-content-flex {
+	background: #1d1f20;
+}
+
+label.rc-message-box__container:hover {
+	background: #36383a !important;
 }
