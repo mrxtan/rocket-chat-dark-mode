@@ -6,7 +6,7 @@ body {
 }
 
 label.rc-message-box__container {
-	border: 1px solid #383f49 !important;
+	border: transparent;
 	border-radius: 0.5rem !important;
 	background: #292e35 !important;
 	transition: all 0.3s ease-out;
