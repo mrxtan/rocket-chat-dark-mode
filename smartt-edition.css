@@ -12,6 +12,24 @@ label.rc-message-box__container {
 	transition: all 0.3s ease-out;
 }
 
+button.user.user-card-message.color-primary-font-color {
+	color: #cfecff;
+}
+
+.sidebar-item--active div.avatar img {
+	border: 2px solid #ff1f57;
+}
+
+.sidebar-item--active {
+	background-color: #414852;
+	background-color: #3d424e;
+}
+
+.sidebar-item {
+	border-radius: 0.5rem;
+	margin: 0rem 0.6rem;
+}
+
 label.rc-message-box__container:hover {
 	background: #343942 !important;
 }
