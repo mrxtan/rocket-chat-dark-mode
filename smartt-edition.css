@@ -17,3 +17,17 @@ label.rc-message-box__container:hover {
 textarea {
 	color: #f2f3f5;
 }
+
+.rc-header__toggle-favorite--checked,
+.rc-header__toggle-favorite:hover {
+	color: #a2bbe2;
+}
+
+body.dark-mode a {
+	color: #4eb2f5;
+	transition: all 0.3s ease-out;
+}
+
+.message a:hover {
+	color: #7fccff;
+}
