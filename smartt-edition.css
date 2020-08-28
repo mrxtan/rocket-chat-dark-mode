@@ -28,6 +28,7 @@ button.user.user-card-message.color-primary-font-color {
 .sidebar-item {
 	border-radius: 0.5rem;
 	margin: 0rem 0.6rem;
+	padding: 0rem 0.7rem;
 }
 
 label.rc-message-box__container:hover {
