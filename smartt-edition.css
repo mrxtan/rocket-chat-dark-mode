@@ -125,6 +125,18 @@ body.dark-mode .message {
 	background: #1d1f20;
 }
 
+body.dark-mode .contextual-bar__content {
+	background-color: #292c2e;
+}
+
+body.dark-mode .rc-user-info-details {
+	background-color: #1d1f20;
+}
+
+body.dark-mode .contextual-bar__header {
+	background-color: #292c2f;
+}
+
 label.rc-message-box__container:hover {
 	background: #36383a !important;
 }
