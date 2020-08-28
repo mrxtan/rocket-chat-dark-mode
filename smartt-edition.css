@@ -7,7 +7,7 @@ body {
 label.rc-message-box__container {
 	border: transparent;
 	border-radius: 0.5rem !important;
-	background: #2f353d !important;
+	background: #323435 !important;
 	transition: all 0.3s ease-out;
 }
 
@@ -66,7 +66,19 @@ textarea {
 }
 
 label.rc-message-box__container:hover {
-	background: #343942 !important;
+	background: #34383a !important;
+}
+
+.rc-message-box {
+	background: #1c1e20;
+}
+
+.rc-header--room {
+	background: #1c1e20;
+}
+
+aside.sidebar {
+	background: #292c2d;
 }
 
 .avatar .avatar-image {
@@ -89,9 +101,10 @@ body.dark-mode a {
 }
 
 body.dark-mode .message {
-	border-top: 1px solid #313a42;
+	border-top: 1px solid #323638;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
+	background: #1c1e20;
 }
 
 .message a:hover {
