@@ -69,7 +69,8 @@ label.rc-message-box__container:hover {
 	background: #34383a !important;
 }
 
-.rc-message-box {
+.rc-message-box,
+.room-list__list {
 	background: #1c1e20;
 }
 
