@@ -55,7 +55,7 @@ textarea {
 }
 
 .first-unread .body:before {
-	background: #a2bbe2 !important;
+	background: #f54f77 !important;
 }
 
 .first-unread .body:after {
@@ -119,6 +119,14 @@ body.dark-mode .message {
 
 .message a:hover {
 	color: #7fccff;
+}
+
+li.sidebar-item.js-sidebar-type-d.sidebar-item--active {
+	background: #3b3f41;
+}
+
+.badge--unread {
+	background-color: #0077ff;
 }
 
 .main-content-flex {
