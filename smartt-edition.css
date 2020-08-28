@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;500&family=Open+Sans:wght@400;600&family=Roboto:wght@400;500&family=Ubuntu:wght@400;500&display=swap");
 
 body {
-	font-family: "Roboto" !important;
-	letter-spacing: 0.5px;
+	font-family: "Open Sans" !important;
 }
 
 label.rc-message-box__container {
@@ -13,7 +12,11 @@ label.rc-message-box__container {
 }
 
 button.user.user-card-message.color-primary-font-color {
-	color: #cfecff;
+	color: #f2faff;
+}
+
+footer.sidebar__footer img {
+	width: 0;
 }
 
 footer.sidebar__footer {
@@ -83,6 +86,12 @@ textarea {
 body.dark-mode a {
 	color: #4eb2f5;
 	transition: all 0.3s ease-out;
+}
+
+body.dark-mode .message {
+	border-top: 1px solid #313a42;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 
 .message a:hover {
