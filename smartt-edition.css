@@ -16,6 +16,21 @@ button.user.user-card-message.color-primary-font-color {
 	color: #cfecff;
 }
 
+footer.sidebar__footer {
+	position: relative;
+}
+
+footer.sidebar__footer:after {
+	content: "";
+	width: 135px;
+	height: 27px;
+	/* background: red; */
+	position: absolute;
+	background-image: url(https://raw.githubusercontent.com/mrxtan/rocket-chat-dark-mode/master/dark-logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 .color-primary-font-color,
 textarea {
 	color: #d8d8d8;
